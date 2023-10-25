@@ -32,122 +32,35 @@ function Home() {
   
   return (
     <>
-     <div className=' top-0 relative' >
+     <div className='min-w-[792px] top-0 relative  flex items-center justify-center ' >
         <div className=' inset-0  bg-center, bg-transparent grid'>
           <Image src="/Images/Rectangle 1.png" layout='fill' alt='' />
           <Image src="/Images/vector.png" layout='fill' alt='' />
-          <div className='container mx-auto grid justify-center items-center py-44'>
-            <div className='grid md:grid-cols-2 sm:grid-cols-1 md:text-start text-center'>
+          <div className='container mx-auto grid  items-center '>
+            <div className='grid md:grid-cols-2 sm:grid-cols-1 md:text-start text-center '>
               <div className=' md:text-start sm:text-center'>
                 <h1 className=' font-bold text-sm tracking-[1px] uppercase text-[#E63232] py-4'>Security Services provider.</h1>
                 <h1 className=' font-bold text-5xl text-[#0D0D0D] leading-[67px] py-4 capitalize'>We identify Gaps, <span className='text-[#E63232]'> you gain Security</span></h1>
                 <p className=' font-normal text-xl leading-8 text-[#050202] opacity-[70%] py-4'>Identifying gaps is a crucial step in ensuring security in any system or process. These gaps can range from technical vulnerabilities to gaps in policies and procedures.</p>
                 <button className='w-[197px] bg-[#E63232] font-medium text-base leading-5 rounded-[5px] gap-2.5 h-[51px] text-[#FFFCFC] '>Company Profile</button>
               </div>
-              <div className=' '>
+             
                 <div className='flex justify-center items-center'>
                   <Image src="/Images/Group 1000003129.png" height={303} width={580} alt='' />
                 </div>
-              </div>
+             
             </div>
           </div>
         </div>
       </div>
-      <div>
-        <div className='container mx-auto'>
-          <h1 className='text-center text-[42px] font-bold leading-[58px] text-[#0D0D0D] tracking-[2px] mt-12'>Services</h1>
-          <div className='grid md:grid-cols-2 sm:grid-cols-1 md:text-start text-center mb-8'>
-            <div>
-              <div className='flex justify-center items-center'>
-                <Image alt='' width={350} height={350} src="/Images/Group 1000002916.png" />
-              </div>
-            </div>
-            <div className=' grid justify-center items-center'>
-              <div className=' md:text-start text-center'>
-                <h2 className=' font-semibold text-xs leading-5 tracking-wide uppercase text-[#E63232] py-2'>our offensive security </h2>
-                <h1 className='font-bold text-[42px] leading-[58px] text-[#0D0D0D] tracking-[3px] py-2'>Offensive Security</h1>
-                <p className=' font-normal text-xl leading-[32px] text-[#050202] opacity-[70%] py-2'>Protect your business with our offensive security services. We simulate real-world
-                  threats to identify and fix vulnerabilities before they can be exploited, ensuring the safety of your organisation.</p>
-                <button type='buttton' className='my-4 h-[51px] rounded-[5px] border-[1px] border-solid gap-2 w-[157px] border-[#E63232] font-medium text-base leading-5 text-[#E63232] '>Learn more</button>
-              </div>
-            </div>
-          </div>
-          <div className='grid md:grid-cols-2 sm:grid-cols-1 md:text-start text-center mb-8'>
-            <div className=' grid justify-center items-center'>
-              <div className=' md:text-start text-center'>
-                <h2 className=' font-semibold text-xs leading-5 tracking-wide uppercase text-[#E63232] py-2'>The Power of IT and Solutions Computing</h2>
-                <h1 className='font-bold text-[42px] leading-[58px] text-[#0D0D0D] tracking-[3px] py-2'>IT Solutions</h1>
-                <p className=' font-normal text-xl leading-[32px] text-[#050202] opacity-[70%] py-2'>IT and cloud technology have transformed the way businesses operate, enabling them to become more efficient, agile, and responsive to customer needs.
-                  The cloud has revolutionized data storage and management, allowing companies to store.</p>
-                <button type='buttton' className='my-4 h-[51px] rounded-[5px] border-[1px] border-solid gap-2 w-[157px] border-[#E63232] font-medium text-base leading-5 text-[#E63232] '>Learn more</button>
-              </div>
-            </div>
-            <div>
-              <div className='flex justify-center items-center'>
-                <Image alt='' width={200} height={200} src="/Images/It_Infrastructure.png" />
-              </div>
-            </div>
-          </div>
-          <div className='grid md:grid-cols-2 sm:grid-cols-1 md:text-start text-center mb-8'>
-            <div>
-              <div className='flex justify-center items-center'>
-                <Image alt='' width={350} height={350} src="/Images/Group 1000002974.png" />
-              </div>
-            </div>
-            <div className=' grid justify-center items-center'>
-              <div className=' md:text-start text-center'>
-                <h2 className=' font-semibold text-xs leading-5 tracking-wide uppercase text-[#E63232] py-2'>defensive security services </h2>
-                <h1 className='font-bold text-[42px] leading-[58px] text-[#0D0D0D] tracking-[3px] py-2'>Managed Defensive Security</h1>
-                <p className=' font-normal text-xl leading-[32px] text-[#050202] opacity-[70%] py-2'>Stay ahead of cyber threats with our managed defensive security services - our expert team monitors your systems 24/7 to detect, respond and remediate potential
-                  security incidents before they become major issues.</p>
-                <button type='buttton' className='my-4 h-[51px] rounded-[5px] border-[1px] border-solid gap-2 w-[157px] border-[#E63232] font-medium text-base leading-5 text-[#E63232] '>Learn more</button>
-              </div>
-            </div>
-          </div>
-          <div className='grid md:grid-cols-2 sm:grid-cols-1 md:text-start text-center mb-8'>
-            <div className=' grid justify-center items-center'>
-              <div className=' md:text-start text-center'>
-                <h2 className=' font-semibold text-xs leading-5 tracking-wide uppercase text-[#E63232] py-2'>the foundation of a successful business </h2>
-                <h1 className='font-bold text-[42px] leading-[58px] text-[#0D0D0D] tracking-[3px] py-2'>Governance, Risk & Compliance</h1>
-                <p className=' font-normal text-xl leading-[32px] text-[#050202] opacity-[70%] py-2'>Effective Governance, Risk & Compliance is the foundation of a successful business - let us help you navigate regulatory requirements
-                  and manage risk to ensure your operations are secure and compliant.</p>
-                <button type='buttton' className='my-4 h-[51px] rounded-[5px] border-[1px] border-solid gap-2 w-[157px] border-[#E63232] font-medium text-base leading-5 text-[#E63232] '>Learn more</button>
-              </div>
-            </div>
-            <div>
-              <div className='flex justify-center items-center'>
-                <Image alt='' width={200} height={200} src="/Images/Group (1).png" />
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className=' relative py-20' >
-          <div className='inset-0  bg-center, bg-transparent grid'>
-            <Image src="/Images/Rectangle 1.png" layout='fill' alt='' />
-            <Image src="/Images/vector.png" layout='fill' alt='' />
-            <div className='container mx-auto grid justify-center items-center'>
-              <div className='grid grid-cols-1'>
-                <div>
-                  <h1 className='text-center font-bold text-[42px] leading-[58px] tracking-[1px] mb-5'>Why GapSec?</h1>
-                  <p className='text-[#050202] opacity-[70%] font-normal text-xl leading-8 text-center mb-6'>We are a team of dedicated security professionals who prioritize the values of trust, expertise, <br />
-                    and innovation in providing comprehensive and tailored security solutions to our clients.</p>
-                  <p className='text-[#050202] opacity-[70%] font-normal text-xl leading-8 text-center mb-10'>By choosing us, clients can expect increased protection against cyber threats, enhanced <br />
-                    regulatory compliance, and time and cost savings by outsourcing their security operations.</p>
-                  <Image src="/Images/Group 1000003154.png" width={1116} height={443} alt='' />
-
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> 
-        <Carousel/>
-      <div className=' relative py-20' >
+        {/* <Carousel/>
+      <div className=' min-h-[1063px]] flex items-center justify-center relative py-20' >
         <div className='inset-0  bg-center, bg-transparent grid'>
           <Image src="/Images/Rectangle 1.png" layout='fill' alt='' />
           <div className='container mx-auto grid  items-center'>
-            <h1 className='text-center font-bold text-[42px] leading-[58px] tracking-[1px] mb-5'>contact us</h1>
-            <div className='grid md:grid-cols-2 sm:grid-cols-1'>
-              <div>
+            <h1 className='text-center font-bold text-[42px] leading-[58px] tracking-[1px] capitalize mb-5'>contact us</h1>
+            <div className='grid md:grid-cols-2 sm:grid-cols-1 '>
+              <div className='flex items-center px-8'>
                 <Image alt='' width={518} height={518} src="/Images/Group 1000003104.png" />
               </div>
               <div>
@@ -230,8 +143,8 @@ function Home() {
             </div>
           </div>
         </div>
-      </div> 
-      </div>
+      </div>  */}
+      
     </>
   )
 }

@@ -3,7 +3,7 @@ import Link from "next/link"
 const Navbar = () => {
   return (
     <nav className="bg-transparent fixed w-full z-20 top-0 left-0 ">
-      <div className="container flex items-center justify-between mx-auto py-2">
+      <div className="container flex items-center justify-around mx-auto py-2">
         <Link href="/" className="items-center">
           <Image src="/Images/Group.png"  alt="Flowbite Logo" width={151} height={45} />
         </Link>
