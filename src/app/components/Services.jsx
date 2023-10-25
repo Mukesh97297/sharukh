@@ -3,10 +3,11 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { useState } from 'react';
-import Carousel from './Carousel';
+// import Carousel from './Carousel';
 function Services() {
     const [isChecked, setIsChecked] = useState(false);
-
+   
+    
     const toggleCheckbox = () => {
         setIsChecked(!isChecked);
     };
@@ -94,7 +95,7 @@ function Services() {
                     </div>
                 </div>
             </div>
-            <Carousel/>
+            {/* <Carousel/> */}
             <div className=' min-h-[1063px]   flex items-center justify-center relative py-20' >
                 <div className='inset-0  bg-center, bg-transparent grid'>
                     <Image src="/Images/Rectangle 1.png" layout='fill' alt='' />

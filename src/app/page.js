@@ -5,13 +5,13 @@ import Services from './components/Services';
 
 export default function Home() {
   return (
-    <div>
+    <>
        <Navbar/>
        <Home1/>
        <Services/>
        <Footer/>
      
       
-   </div>
+   </>
   )
 }
