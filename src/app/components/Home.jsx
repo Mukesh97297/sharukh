@@ -32,13 +32,13 @@ function Home() {
   
   return (
     <>
-     <div className='min-w-[792px] top-0 relative  flex items-center justify-center ' >
+     <div className='min-h-[792px] top-0 relative  flex items-center justify-center ' >
         <div className=' inset-0  bg-center, bg-transparent grid'>
           <Image src="/Images/Rectangle 1.png" layout='fill' alt='' />
           <Image src="/Images/vector.png" layout='fill' alt='' />
           <div className='container mx-auto grid  items-center '>
             <div className='grid md:grid-cols-2 sm:grid-cols-1 md:text-start text-center '>
-              <div className=' md:text-start sm:text-center'>
+              <div className=' md:text-start sm:text-center md:min-w-[558px] md:min-h-[375px] md:top-[225px] md:left-[291px]'>
                 <h1 className=' font-bold text-sm tracking-[1px] uppercase text-[#E63232] py-4'>Security Services provider.</h1>
                 <h1 className=' font-bold text-5xl text-[#0D0D0D] leading-[67px] py-4 capitalize'>We identify Gaps, <span className='text-[#E63232]'> you gain Security</span></h1>
                 <p className=' font-normal text-xl leading-8 text-[#050202] opacity-[70%] py-4'>Identifying gaps is a crucial step in ensuring security in any system or process. These gaps can range from technical vulnerabilities to gaps in policies and procedures.</p>
