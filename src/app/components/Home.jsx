@@ -9,7 +9,7 @@ function Home() {
       <div className='min-h-[792px] top-0 relative  flex items-center justify-center ' >
         <div className=' inset-0  bg-center, bg-transparent grid'>
           <Image src="/Images/Rectangle 1.png" layout='fill' alt='' />
-          <Image src="/Images/vector.png" layout='fill' alt='' />
+          <Image src="/Images/Vector.png" layout='fill' alt='' />
           <div className='mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 grid  items-center '>
             <div className='grid md:grid-cols-12 sm:grid-cols-1 md:text-start text-center '>
               <div className='col-span-7 md:text-start sm:text-center md:min-w-[558px] md:min-h-[375px] md:top-[225px] md:left-[291px]'>

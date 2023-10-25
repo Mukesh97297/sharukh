@@ -23,9 +23,7 @@
 //         <div key={4} className="item flex justify-center" data-value="4">
 //              <Image src="/Images/Group 1000003158 (1).png" alt="" height={95} width={95}  />    
 //         </div>,
-//         <div key={5} className="item flex justify-center" data-value="5">
-//              <Image src="/Images/Group 1000003158.png" alt="" height={95} width={95}  />    
-//         </div>,
+//      
 //          <div key={5} className="item flex justify-center" data-value="5">
 //          <Image src="/Images/Group 1000002900.png" alt="" height={95} width={95}  />    
 //     </div>,

@@ -5,7 +5,7 @@ const Navbar = () => {
     <nav className="bg-transparent fixed w-full z-20 top-0 left-0 ">
       <div className=" flex items-center justify-around  py-2">
         <Link href="/" className="items-center">
-          <Image src="/Images/Group.png"  alt="Flowbite Logo" width={151} height={45} />
+          <Image src="/Images/Group.png"  alt="Logo" width={151} height={45} />
         </Link>
         <div className="flex md:order-2">
           <button type="button" className="text-[#E63232] rounded-sm border gap-2 border-[#E63232] border-solid w-32  h-11">Contact Us</button>
