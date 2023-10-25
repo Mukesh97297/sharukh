@@ -16,13 +16,13 @@ const Footer = () => {
 
                             <div className='py-6 flex md:justify-start  sm:justify-center'>
                                 <Link href="/" className='mr-3'>
-                                    <Image src='/images/Group 1000003173.png' alt='' width={35} height={35} />
+                                    <Image src='/Images/Group 1000003173.png' alt='' width={35} height={35} />
                                 </Link>
                                 <Link href="/" className='mr-3'>
-                                    <Image src='/images/Group 1000003172.png' alt='' width={35} height={35} />
+                                    <Image src='/Images/Group 1000003172.png' alt='' width={35} height={35} />
                                 </Link>
                                 <Link href="/" className='mr-3'>
-                                    <Image src='/images/Group 1000003169.png' alt='' width={35} height={35} />
+                                    <Image src='/Images/Group 1000003169.png' alt='' width={35} height={35} />
                                 </Link>
                             </div>
 

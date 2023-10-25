@@ -19,7 +19,7 @@ const Navbar = () => {
         <div className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
           <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg  md:flex-row md:space-x-8 md:mt-0 md:border-0 bg-transparent dark:border-gray-700">
             <li>
-              <Link href="#" className="font-family text-base font-normal leading-6 tracking-normal text-left text-gray-900" aria-current="page">Home</Link>
+              <Link href="/" className="font-family text-base font-normal leading-6 tracking-normal text-left text-gray-900" aria-current="page">Home</Link>
             </li>
           
             <li aria-labelledby="dropdownNavbarLink">
@@ -30,10 +30,10 @@ const Navbar = () => {
               
             </li>
             <li>
-              <Link href="#" className="font-family text-base font-normal leading-6 tracking-normal text-left text-gray-900">About</Link>
+              <Link href="/" className="font-family text-base font-normal leading-6 tracking-normal text-left text-gray-900">About</Link>
             </li>
             <li>
-              <Link href="#" className="font-family text-base font-normal leading-6 tracking-normal text-left text-gray-900">Blog</Link>
+              <Link href="/" className="font-family text-base font-normal leading-6 tracking-normal text-left text-gray-900">Blog</Link>
             </li>
           </ul>
         </div>
