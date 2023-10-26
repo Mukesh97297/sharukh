@@ -2,15 +2,13 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import { useState } from 'react';
-// import Carousel from './Carousel';
+import { useState } from 'react'
+// import Carousel from './Carousel'
 function Services() {
     const [isChecked, setIsChecked] = useState(false);
-   
-    
     const toggleCheckbox = () => {
         setIsChecked(!isChecked);
-    };
+    }
     
 
     return (
@@ -78,7 +76,7 @@ function Services() {
                 <div className=' relative min-h-[981px] flex items-center justify-center ' >
                     <div className='inset-0  bg-center, bg-transparent grid'>
                         <Image src="/Images/Rectangle 1.png" layout='fill' alt='' />
-                        <Image src="/Images/vector.png" layout='fill' alt='' />
+                        <Image src="/Images/Vector.png" layout='fill' alt='' />
                         <div className='mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 grid  items-center'>
                             <div className='grid grid-cols-12'>
                                 <div className='col-span-12'>
@@ -95,7 +93,7 @@ function Services() {
                     </div>
                 </div>
             </div>
-            {/* <Carousel/> */}
+            {/* <Carousel/>  */}
             <div className=' min-h-[1063px]   flex items-center justify-center relative py-20' >
                 <div className='inset-0  bg-center, bg-transparent grid'>
                     <Image src="/Images/Rectangle 1.png" layout='fill' alt='' />
