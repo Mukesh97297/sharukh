@@ -16,11 +16,11 @@ function Services() {
             <div>
                 <div className='mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 grid  '>
                     <h1 className='text-center text-[42px] font-bold leading-[58px] text-[#0D0D0D] tracking-[2px] mt-12'>Services</h1>
-                    <div className='grid md:grid-cols-12 sm:grid-cols-1 md:text-start text-center mb-10 md:min-h-[366px] md:min-w-[1080px]'>
-                        <div className='col-span-5 flex justify-center'>
+                    <div className=' grid md:grid-cols-12 sm:grid-cols-1 md:text-start text-center mb-10 md:min-h-[366px] md:min-w-[1080px]'>
+                        <div className='md:col-span-5 sm:col-span-12 flex justify-center sm:text-center'>
                             <Image alt='' width={286} height={366} src="/Images/Vector (1).png" />
                         </div>
-                        <div className=' col-span-7 flex justify-center  items-center md:min-h-[285px] md:min-w-[630px]'>
+                        <div className=' md:col-span-7 sm:col-span-12 flex justify-center  items-center md:min-h-[285px] md:min-w-[630px]'>
                             <div className=' md:text-start text-center'>
                                 <h2 className=' font-semibold text-xs leading-5 tracking-wide uppercase text-[#E63232] py-2'>our offensive security </h2>
                                 <h1 className='font-bold text-[42px] leading-[58px] text-[#0D0D0D] tracking-[3px] py-2'>Offensive Security</h1>
@@ -31,7 +31,7 @@ function Services() {
                         </div>
                     </div>
                     <div className='grid md:grid-cols-12 sm:grid-cols-1 md:text-start text-center mb-10'>
-                        <div className=' col-span-7 flex justify-center items-center'>
+                        <div className=' md:col-span-7 sm:col-span-12 flex justify-center items-center'>
                             <div className=' md:text-start text-center'>
                                 <h2 className=' font-semibold text-xs leading-5 tracking-wide uppercase text-[#E63232] py-2'>The Power of IT and Solutions Computing</h2>
                                 <h1 className='font-bold text-[42px] leading-[58px] text-[#0D0D0D] tracking-[3px] py-2'>IT Solutions</h1>
@@ -40,15 +40,15 @@ function Services() {
                                 <button type='buttton' className='my-4 h-[51px] rounded-[5px] border-[1px] border-solid gap-2 w-[157px] border-[#E63232] font-medium text-base leading-5 text-[#E63232] '>Learn more</button>
                             </div>
                         </div>
-                        <div className='col-span-5 flex justify-end'>
+                        <div className='md:col-span-5 sm:col-span-12 flex justify-end'>
                             <Image alt='' width={341} height={340} src="/Images/It_Infrastructure.png" />
                         </div>
                     </div>
                     <div className='grid md:grid-cols-12 md:text-start text-center mb-10'>
-                        <div className='col-span-5 flex justify-center'>
+                        <div className='md:col-span-5 sm:col-span-12 flex justify-center'>
                             <Image alt='' width={350} height={350} src="/Images/Vector (2).png" />
                         </div>
-                        <div className='col-span-7 flex justify-center items-center'>
+                        <div className='md:col-span-7 sm:col-span-12 flex justify-center items-center'>
                             <div className=' md:text-start text-center'>
                                 <h2 className=' font-semibold text-xs leading-5 tracking-wide uppercase text-[#E63232] py-2'>defensive security services </h2>
                                 <h1 className='font-bold text-[42px] leading-[58px] text-[#0D0D0D] tracking-[3px] py-2'>Managed Defensive Security</h1>
@@ -59,7 +59,7 @@ function Services() {
                         </div>
                     </div>
                     <div className='grid md:grid-cols-12 sm:grid-cols-1 md:text-start text-center mb-8'>
-                        <div className=' col-span-7 flex justify-end items-center'>
+                        <div className=' md:col-span-7 sm:col-span-12 flex justify-end items-center'>
                             <div className=' md:text-start text-center'>
                                 <h2 className=' font-semibold text-xs leading-5 tracking-wide uppercase text-[#E63232] py-2'>the foundation of a successful business </h2>
                                 <h1 className='font-bold text-[42px] leading-[58px] text-[#0D0D0D] tracking-[3px] py-2'>Governance, Risk & Compliance</h1>
@@ -68,7 +68,7 @@ function Services() {
                                 <button type='buttton' className='my-4 h-[51px] rounded-[5px] border-[1px] border-solid gap-2 w-[157px] border-[#E63232] font-medium text-base leading-5 text-[#E63232] '>Learn more</button>
                             </div>
                         </div>
-                        <div className='col-span-5 flex justify-end text-center'>
+                        <div className='md:col-span-5 sm:col-span-12 flex justify-end'>
                             <Image alt='' width={357} height={368} src="/Images/Group (1).png" />
                         </div>
                     </div>
