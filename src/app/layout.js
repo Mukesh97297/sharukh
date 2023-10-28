@@ -1,6 +1,8 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
-
+import Head from 'next/head'
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
@@ -11,7 +13,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+     <Head>
+     <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+     </Head>
       
       <body className={inter.className}>
         
