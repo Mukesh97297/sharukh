@@ -13,8 +13,8 @@ function Contact() {
   return (
     <div>
       <div className=' min-h-[1063px]   flex items-center justify-center relative py-20' >
-                <div className='inset-0  bg-center, bg-transparent grid'>
-                    <Image src="/Images/Rectangle 1.png" layout='fill' alt='' />
+                <div className='inset-0  bg-center, bg-transparent grid '>
+                    <Image src="/Images/Rectangle 1.png" fill alt='' />
                     <div className='mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 grid  items-center'>
                         <h1 className='text-center font-bold text-[42px] leading-[58px] tracking-[1px] capitalize mb-5'>contact us</h1>
                         <div className='grid grid-cols-12'>

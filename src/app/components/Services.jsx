@@ -15,7 +15,6 @@ function Services() {
                     <div className=' grid grid-cols-12  lg:text-start text-center mb-10 md:min-h-[366px] '>
                         <div className='lg:col-span-5 col-span-12 flex lg:justify-start justify-center sm:text-center'>
                             <Image alt='' width={286} height={366}   src="/Images/Vector (1).png" />
-                            {/* <Image alt='' width={186} height={166} className='' src="/Images/Vector (1).png" /> */}
                         </div>
                         <div className=' lg:col-span-7 col-span-12 flex justify-center  items-center md:min-h-[285px] md:min-w-[630px]'>
                             <div className=' lg:text-start text-center'>
@@ -72,8 +71,8 @@ function Services() {
                  </div> 
                 <div className=' relative min-h-[981px] flex items-center justify-center ' >
                     <div className='inset-0  bg-center, bg-transparent grid'>
-                        <Image src="/Images/Rectangle 1.png" layout='fill' alt='' />
-                        <Image src="/Images/Vector.png" layout='fill' alt='' />
+                        <Image src="/Images/Rectangle 1.png" fill alt='' />
+                        <Image src="/Images/Vector.png" fill alt='' />
                         <div className='mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 grid  items-center'>
                             <div className='grid grid-cols-12'>
                                 <div className='col-span-12'>

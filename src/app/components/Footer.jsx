@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <footer className='min-h-[504px] relative'>
             <div className=' inset-0  bg-center, bg-transparent grid'>
-                <Image src="/Images/BG.png" layout='fill' alt='' />
+                <Image src="/Images/BG.png" fill alt='' />
                 <div className='mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 grid '>
                     <div className='grid grid-cols-12  py-28' >
                         <div className='lg:col-span-3 col-span-12 justify-center '>
