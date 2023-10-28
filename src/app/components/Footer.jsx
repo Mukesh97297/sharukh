@@ -7,14 +7,14 @@ const Footer = () => {
             <div className=' inset-0  bg-center, bg-transparent grid'>
                 <Image src="/Images/BG.png" layout='fill' alt='' />
                 <div className='mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 grid '>
-                    <div className='grid lg:grid-cols-12  md:grid-cols-12 sm:grid-cols-1 py-28' >
-                        <div className='md:col-span-3 sm:col-span-12 justify-center '>
+                    <div className='grid grid-cols-12  py-28' >
+                        <div className='lg:col-span-3 col-span-12 justify-center '>
 
-                            <Link href="/" className='flex md:justify-start  justify-center'>
+                            <Link href="/" className='flex lg:justify-start  justify-center'>
                                 <Image src='/Images/Group.png' alt='' width={195} height={58} />
                             </Link>
 
-                            <div className='py-6 flex md:justify-start  justify-center'>
+                            <div className='py-6 flex lg:justify-start  justify-center'>
                                 <Link href="/" className='mr-3'>
                                     <Image src='/Images/Group 1000003173.png' alt='' width={35} height={35} />
                                 </Link>
@@ -27,7 +27,7 @@ const Footer = () => {
                             </div>
 
                         </div>
-                        <div className='md:col-span-3 sm:col-span-12 md:text-start text-center'>
+                        <div className='lg:col-span-3 col-span-12 lg:text-start text-center'>
                             <h1 className=' font-semibold  text-sm text-[#050202] tracking-[1px]'>SOLUTIONS</h1>
                             <ul className='static'>
                                 <li className=' text-base font-medium text-[#050202] opacity-[70%] py-2'>Offensive Security  </li>
@@ -36,7 +36,7 @@ const Footer = () => {
                                 <li className=' text-base font-medium text-[#050202] opacity-[70%] '>Governance, Risk & Compliance</li>
                             </ul>
                         </div>
-                        <div className='md:col-span-3 sm:col-span-12 md:text-start text-center'>
+                        <div className='lg:col-span-3 col-span-12 lg:text-start text-center'>
                             <h1 className=' font-semibold  text-sm text-[#050202]  uppercase tracking-[1px]'>compare</h1>
                             <ul className=''>
                                 <li className=' text-base font-normal text-[#050202] opacity-[70%] py-2'>About</li>
@@ -44,7 +44,7 @@ const Footer = () => {
 
                             </ul>
                         </div>
-                        <div className='md:col-span-3 sm:col-span-12 md:text-start text-center'>
+                        <div className='lg:col-span-3 col-span-12 lg:text-start text-center'>
                             <h1 className=' font-semibold  text-sm text-[#050202]  uppercase tracking-[1px]'>Newsletter</h1>
                             <div className='py-2'><input type="text" placeholder='Enter your email address' className=' bg-[#D0D0D0] opacity-[70%] rounded-[10px] pl-2 text-[#050202] border-solid border-[1px] h-[55px] w-[270px] border-[#FCFDFF12] ' /></div>
                             <div className='py-2'><button className='h-[55px] w-[270px] bg-[#E63232] rounded-[10px] border-solid border-[1px] text-[#FFFCFC]'>Subscribe Now</button></div>
