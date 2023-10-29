@@ -12,7 +12,7 @@ export default function Home() {
        <Navbar/> 
        <Home1/>
        <Services/>
-       <SlickCarousel/>
+       {/* <SlickCarousel/> */}
        <Contact/>
        <Footer/> 
       
